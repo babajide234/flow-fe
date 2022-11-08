@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --e-global-color-primary: #018DFF;
+  --e-global-color-secondary: #141617;
+  --e-global-color-text: #7A7A7A;
+  --e-global-color-accent: #FFFFFF;
+  --e-global-color-5793e2d: #405E74;
+  --e-global-color-3c232a5: #BCBCBC;
+  --e-global-color-e1f3e9c: #666666;
+  --e-global-color-2a98c0f: #1E2132;
+  --e-global-color-9a49522: #393E41;
+  --e-global-color-058c76f: #E4E8EE;
+  --e-global-color-fd9308f: #00A5B0;
+  --e-global-color-ebbec1a: #007B8C;
+  --e-global-color-d96e419: #FFBC00;
+  --e-global-color-acdd083: #BFC3C7;
+  --e-global-color-897ac11: #405E74;
+  --e-global-color-f5aed1a: #DFE5EA;
+  --e-global-color-9fa8e96: #C1E4FD;
+  --e-global-color-30bc0f7: #F0F4F7;
+  --e-global-color-fda7a63: #162D3D;
+  --e-global-color-5d6b412: #141617;
+  --e-global-color-be1d03f: #32536A;
+  --e-global-color-c1282ba: #32536A;
+  --e-global-typography-primary-font-family: "Roboto";
+  --e-global-typography-primary-font-weight: 600;
+  --e-global-typography-secondary-font-family: "Roboto Slab";
+  --e-global-typography-secondary-font-weight: 400;
+  --e-global-typography-text-font-family: "Roboto";
+  --e-global-typography-text-font-weight: 400;
+  --e-global-typography-accent-font-family: "Roboto";
+  --e-global-typography-accent-font-weight: 500;
+  color: #1E2132;
+  font-size: 14px;
+}
+body, html {
+  min-height: 100%;
+  margin: 0;
+  font-size: 18px;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-size: 16px;
+  line-height: 1.6875rem;
+  overflow-x: hidden;
+  background-color: var( --e-global-color-accent );
+}
