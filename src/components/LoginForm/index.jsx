@@ -12,7 +12,7 @@ const LoginForm = () => {
         <Button text={`Sign In`} link={`/dashboard`}/>
 
         <div className=" w-full flex mt-10 justify-center items-center">
-            <Link to={``} className=" capitalize font-extralight text-md hover:underline" >Create Account</Link>
+            <Link to={`/register`} className=" capitalize font-extralight text-md hover:underline" >Create Account</Link>
             <span className=" block border-r-2 h-5 border-gray-400 m-3"></span>
             <Link to={``} className=" capitalize font-extralight text-md hover:underline" >Forgot password?</Link>
         </div>
